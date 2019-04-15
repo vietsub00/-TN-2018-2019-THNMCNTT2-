@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In Layout</title>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Log In</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#"> Action </a>
+                        <a class="dropdown-item" href="#"> Strategy</a>
+                        <a class="dropdown-item" href="#"> </a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <aside class="col-10 col-md-2 p-0 bg-light">
+                <nav class="navbar navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start">
+                    <div class="collapse navbar-collapse">
+
+                        <ul class="flex-md-column flex-row navbar-nav w-10 justify-content-between">
+                            <li class="nav-item"><img width="100%" src="LogoWebsite.png" alt=""></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Popular Game </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Game Free <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Game Paid </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Game Lists</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Action 1</a>
+                                    <a class="dropdown-item" href="#">Action 2</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Payment Methods </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Wishlist </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+            <main>
+                <nav class="navbar navbar-expand navbar-light flex-md-column flex-row ">
+                    <img width="900" src="Logo Website Full.png" alt="">
+                </nav>
+                <div class="container">
+                    <nav class="navbar-light bg-light flex-md-column flex-row">
+                        <h1>
+                            <p class="text-center">
+                                <strong>LOGIN YOUR ACCOUNT</strong>
+                            </p>
+                        </h1>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email"><strong>Email:</strong></label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd"><strong>Password:</strong></label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> <strong>Remember me</strong>
+                                </label>
+                                </div>
+                                <button type="submit" class="btn btn-success"><strong>Submit</strong></button>
+                            </form>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="container">
+                                <nav class="navbar-light bg-light flex-md-column flex-row">
+                                    <div class="container">
+                                        <h1>_______________________</h1>
+                                    </div>
+                                    <button type="button" class="btn btn-dark btn-block"><strong>Create New Account</strong></button>
+                                    <div class="container">
+                                        <h6>
+                                            <p class="text-center">
+                                                ___________OR___________
+                                            </p>
+                                        </h6>
+                                    </div>
+                                    <button type="button" class="btn btn-danger btn-block"><strong>GOOGLE (+)</strong></button>
+                                    <button type="button" class="btn btn-primary btn-block"><strong>FACEBOOK</strong></button>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
